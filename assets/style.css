@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&family=Roboto+Condensed&display=swap');
+body{
+
+position: relative;display: flex;height: 96vh;align-items: center;justify-content: center;background: linear-gradient(88deg, #29464a 40%, #00ddff);color: #fff;backdrop-filter: blur(150px);}
+h1{
+
+text-align: center;font-size: 13vw;font-family: PT Sans;margin: 0;}
+h2{
+
+margin: 0;font-family: Roboto Condensed;font-size: 7vw;font-weight: 500;text-align: center;}
+p{
+
+text-align: center;font-size: 4vw;font-family: cursive;}
+
+button{
+
+font-size: 4vw;padding: 5px;width: 20vw;border: 2px solid #fff;background: transparent;color: #fff;border-radius: 25px;margin: 0px 12px;}
+
+
+@media  (min-width: 700px) {
+h1{
+font-size: 59px;
+}
+h2{
+
+font-size: 35px;}
+p{
+font-size: 27px;
+}
+button{
+
+font-size: 25px;width: 26%;}
+}
